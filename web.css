@@ -33,6 +33,10 @@ h1{
     border: 4px solid purple;
     height: 100vh;
 }
+home:hover{
+    background-color: violet;
+    transition-duration: 0.5s;
+}
 #about{
     background-color: lightgreen;
     color: green;
@@ -40,12 +44,20 @@ h1{
     border: 4px solid green;
     height: 100vh;
 }
+about:hover{
+    background-color: lime;
+    transition-duration: 0.5s;
+}
 #projects{
     background-color: lightblue;
     color: indigo;
     border-radius: 10px;
     border: 4px solid blue;
     height: 100vh;
+}
+projects:hover{
+    background-color: deepskyblue;
+    transition-duration: 0.5s;
 }
 #contact{
     background-color: lightyellow;
@@ -55,12 +67,20 @@ h1{
     height: 100vh;
     align-items: center;
 }
+contact:hover{
+    background-color: gold;
+    transition-duration: 0.5s;
+}
 footer{
     background-color: lightgray;
     color: black;
     border-radius: 15px;
     border: 7px solid gray;
     text-align: center;
+}
+footer:hover{
+    background-color: silver;
+    transition-duration: 0.5s;
 }
 marquee{
     font-size: 20px;
