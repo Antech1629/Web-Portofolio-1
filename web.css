@@ -79,7 +79,7 @@ footer{
     text-align: center;
 }
 footer:hover{
-    background-color: silver;
+    background-color: chartreuse;
     transition-duration: 0.5s;
 }
 marquee{
@@ -96,5 +96,21 @@ audio{
     border-radius: 10px;
     color: black;
     background-color: rosybrown;
+}
+audio:hover{
+    background-color: brown;
+    transition-duration: 0.5s;
+}
+.a-1:hover{
+    background-color: darkorange;
+    transition-duration: 0.5s;
+}
+.a-2:hover{
+    background-color: maroon;
+    transition-duration: 0.5s;
+}
+.li-1:hover{
+    background-color: darkslateblue;
+    transition-duration: 0.5s;
 }
 End of web.css
