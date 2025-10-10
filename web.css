@@ -11,6 +11,10 @@ nav{
     border-radius: 10px;
     border: 4px solid brown;
 }
+nav:hover{
+    background-color: burlywood;
+    transition-duration: 0.5s;
+}
 body{
     background-color: lightcyan;
     font-family: fantasy;
